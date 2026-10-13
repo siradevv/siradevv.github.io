@@ -30,6 +30,9 @@
       box-shadow: 0 12px 34px rgba(21, 30, 56, 0.08);
     }
     h1 { margin: 0 0 10px; font-size: 30px; }
+    h2 { margin: 22px 0 8px; font-size: 19px; color: var(--accent); }
+    ul { margin: 8px 0 0 0; padding-left: 20px; }
+    .links a { display: inline-block; margin-right: 14px; margin-top: 6px; }
     p, li { line-height: 1.62; font-size: 16px; }
     .muted { color: var(--muted); }
     a { color: var(--accent); }
@@ -38,16 +41,34 @@
 <body>
   <main class="wrap">
     <h1>TGCal Support</h1>
-    <p class="muted">Need help with PDF import or calendar export?</p>
+    <p class="muted">Help with importing rosters, calendars and live flight info.</p>
 
-    <p>Email support: <a href="mailto:tgcal.app@gmail.com?subject=TGCal%20Support">tgcal.app@gmail.com</a></p>
-
-    <p>When reporting an issue, include:</p>
+    <h2>Importing a roster</h2>
     <ul>
-      <li>iPhone model and iOS version</li>
-      <li>App version (from TestFlight/App Store)</li>
-      <li>A short description and screenshot of the issue</li>
+      <li>Open the roster PDF in Mail, LINE or Files, tap Share and choose <strong>TGCal</strong>. Or tap <strong>+</strong> on the Roster tab and pick the PDF.</li>
+      <li>Check the flights on the review screen, then tap <strong>Add to Calendar</strong>.</li>
+      <li>Got an updated roster? Import it again. TGCal replaces that month and shows what changed. You won't get duplicate events.</li>
+      <li>If the review screen shows warnings, please email us the roster so we can fix it.</li>
     </ul>
+
+    <h2>Calendar</h2>
+    <ul>
+      <li>TGCal needs <strong>Full Access</strong> to calendars: Settings &rarr; Privacy &amp; Security &rarr; Calendars &rarr; TGCal.</li>
+      <li>Flights go to the "TG Roster" calendar by default. You can change it in TGCal &rarr; Settings &rarr; Calendar.</li>
+      <li>Flight times are shown in each airport's local time, just like on the roster.</li>
+    </ul>
+
+    <h2>Widget and live flight info</h2>
+    <ul>
+      <li>To add the widget, touch and hold the Home Screen, tap Edit &rarr; Add Widget and choose TGCal.</li>
+      <li>Live flight status, alerts and Live Activities need a server code (Settings &rarr; Live Flight Info). Everything else works without one.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tgcal.app@gmail.com?subject=TGCal%20Support">tgcal.app@gmail.com</a></p>
+    <p>Please include your iPhone model, iOS version, the TGCal version (at the bottom of TGCal &rarr; Settings) and a screenshot if you can.</p>
+
+    <p class="links"><a href="marketing.html">About TGCal</a> <a href="privacy-policy.html">Privacy Policy</a></p>
   </main>
 </body>
 </html>
